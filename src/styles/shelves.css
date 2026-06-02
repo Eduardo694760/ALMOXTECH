@@ -1,0 +1,27 @@
+.shelf-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.shelf-item {
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.status-ok {
+  background: linear-gradient(135deg, #00c853, #64dd17);
+}
+
+.status-warning {
+  background: linear-gradient(135deg, #ff9800, #ffc107);
+}
+
+.status-critical {
+  background: linear-gradient(135deg, #d32f2f, #f44336);
+}
